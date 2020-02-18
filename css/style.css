@@ -187,6 +187,21 @@ p
     border-radius: 10px;
 }
 
+.price
+{
+    background-color: #8080ff;
+    width: 50%;
+    padding-top: 10px;
+    float: right;
+    border-radius: 0px 20px 0px 5px;
+    text-align: center;
+}
+
+.price p
+{
+    color: white;
+}
+
 .description h6
 {
     font-size: 15px;
@@ -234,6 +249,7 @@ p
    
     
 }
+
 
 
 .secondSection__Part2
