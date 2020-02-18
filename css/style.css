@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+a
+{
+    text-decoration: none;
+}
+
+h2
+{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p
+{
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #a6a6a6;
+}
+
+/*-- Box Content */
+.boxContent
+{
+    width: 80%;
+    min-height: 300px;
+    margin: 25px auto;
+}
+
+.nav
+{
+    width: 100%;
+    padding: 50px 0; 
+}
+
+.nav ul
+{
+    float: right;
+    display: flex;
+}
+
+.nav ul li 
+{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.logo span
+{
+    color: #8686ff;
+}
+
+.profil
+{
+    float: right;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: black;
+    margin-top: -20px;
+}
+
+/* header */
+.header
+{
+    width: 100%;
+    min-height: 400px;
+    background-image: url('../img/chicago-690364_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 100px 0 50px 50px;
+    margin-bottom: 30px
+}
+
+.header h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.link
+{
+    background-color: white;
+    width: 10%;
+    padding: 10px 0 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.link a
+{
+    text-decoration: none;
+    color: #8080ff;
+    margin-right: 30px;
+}
+
+.link a:hover
+{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #8080ff;
+    color: white;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 10px;
+    border-radius: 5px; 
+}
+
+.header form
+{
+    display: flex;
+    
+}
+
+.header form input
+{
+    display: inline-block;
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-search
+{
+    background-color: #ff9376;
+    padding: 10px;
+    border: none;
+    margin-left: -10px;
+    color: white;
+
+}
+
+/* Section 2 */
+
+.secondSection 
+{
+    display: flex;
+    padding: 20px 0;
+}
+
+.secondSection__Part1
+{
+    flex: 2;
+    min-height: 300px; 
+
+}
+
+.items
+{
+    background-image: url('../img/urban-438393_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px ;
+    height: 330px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.description
+{
+    margin: 220px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.description h6
+{
+    font-size: 15px;
+    font-weight: bold
+}
+
+.description h4
+{
+    font-size: 20px;
+    font-weight: bold
+}
+
+.items__3
+{
+    background-image: url('../img/urban-438393_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px ;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px; 
+    margin-bottom: 0;
+}
+
+.items__3 .description
+{
+    margin: 105px 20px 95px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 10px;
+    border-radius: 10px;
+
+}
+
+
+.btn__2
+{
+    background-color: #ff9376;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+   
+    
+}
+
+
+.secondSection__Part2
+{
+    flex: 1;
+    height: 100px;
+    
+}
+
+.right
+{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.illustration
+{
+    flex: 1;
+    
+}
+
+.illustration img
+{
+    height: 100px;
+    width: 100px; 
+    border-radius: 5px;
+}
+
+.rightDescription
+{
+    flex: 2;
+}
+
+.rightDescription h5
+{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.rightDescription h4
+{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.rightDescription p
+{
+    font-size: 18px;
+}
+
+
